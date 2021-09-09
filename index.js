@@ -1,0 +1,13 @@
+// A function that defines parameter name, and returns "Hi, my name is name."
+function introduction(name) {
+    return `Hi, my name is ${name}.`;
+}
+// console.log(introduction("Todd"));
+
+function introductionWithLanguage(name, language) {
+    return `Hi, my name is ${name} and I am learning to program in ${language}.`;
+}
+
+function introductionWithLanguageOptional(name, language = "JavaScript") {
+    return `Hi, my name is ${name} and I am learning to program in ${language}.`;
+}
